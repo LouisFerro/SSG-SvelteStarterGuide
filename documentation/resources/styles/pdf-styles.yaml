@@ -1,0 +1,25 @@
+#font:
+#  catalog:
+#    - apple-system:
+#        normal: /path/to/sans-serif.ttf
+#        italic: /path/to/sans-serif-italic.ttf
+#        bold: /path/to/sans-serif-bold.ttf
+
+font:
+  catalog:
+    AppleSystem:
+      normal: /path/to/fonts/SF-Pro-Text-Regular.ttf
+      bold: /path/to/fonts/SF-Pro-Text-Bold.ttf
+      italic: /path/to/fonts/SF-Pro-Text-Italic.ttf
+      bold_italic: /path/to/fonts/SF-Pro-Text-BoldItalic.ttf
+    SegoeUI:
+      normal: /path/to/fonts/SegoeUI.ttf
+      bold: /path/to/fonts/SegoeUI-Bold.ttf
+      italic: /path/to/fonts/SegoeUI-Italic.ttf
+      bold_italic: /path/to/fonts/SegoeUI-BoldItalic.ttf
+
+base:
+  font-family: AppleSystem, SegoeUI
+  font-color: #333333
+heading:
+  font-family: AppleSystem, SegoeUI
